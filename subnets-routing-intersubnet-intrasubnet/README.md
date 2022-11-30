@@ -257,7 +257,7 @@ ping 10.10.2.24
  `Even through routes are all good in all hosts including router, uou will still see the same behavior except router vm is now reachable on both networks. This is because router vm is not forwarding the packets. So we have to convert linux host to router host.`
 
 
-### Go to router vm. And the under-noted command to convert linux host to linux router by enabling packet forwarding.
+### Go to router vm. And run the under-noted command to convert linux host to linux router by enabling packet forwarding.
 
 ```
 sudo sysctl -w net.ipv4.ip_forward=1
