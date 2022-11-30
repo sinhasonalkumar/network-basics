@@ -279,3 +279,12 @@ Now both intra subnet pings also starts working via router. And inter-subnet pin
 ### Routes On Router
 
 ![Routes on Router ](./images/router-routes.png)
+
+
+### Routes And ARP On VM
+
+![Routes on VM ](./images/routes-and-arp-on-vms.png)
+
+### Routes And ARP On Router
+
+![Routes on Router ](./images/routes-and-arp-on-router.png)
